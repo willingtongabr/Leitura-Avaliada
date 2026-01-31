@@ -1,0 +1,31 @@
+name: leitura_avaliada
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^5.0.0
+  http: ^1.3.0
+  firebase_auth: ^5.5.4
+  firebase_core: ^3.13.1
+  cloud_firestore: ^5.6.8
+  timeago: ^3.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
